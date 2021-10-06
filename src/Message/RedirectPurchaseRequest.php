@@ -113,7 +113,7 @@ class RedirectPurchaseRequest extends AbstractRestRequest
         return array_merge($data, parent::getData());
     }
 
-    protected function createResponse(RequestInterface $request, $data, $statusCode = 200)
+    protected function createResponse($data, $statusCode = 200)
     {
         return new RedirectResponse($this, $data, $statusCode, $this->getBaseEndpoint());
     }

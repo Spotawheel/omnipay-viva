@@ -7,8 +7,7 @@ namespace Omnipay\VivaPayments\Message;
 
 use Omnipay\Common\Exception\InvalidResponseException;
 use Omnipay\Common\Message\RequestInterface;
-use Omnipay\PayPal\Message\RestResponse;
-
+use Omnipay\VivaPayments\Message\RestResponse;
 /**
  * Viva Payments Abstract REST Request
  *

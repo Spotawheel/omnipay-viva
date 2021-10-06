@@ -1,5 +1,5 @@
 {
-    "name": "georgepapanotas1/viva-payments",
+    "name": "georgepapanotas/viva-payments",
     "type": "library",
     "description": "Viva Payments (Greece) driver for the Omnipay payment processing library",
     "keywords": [
