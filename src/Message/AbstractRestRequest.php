@@ -219,6 +219,7 @@ abstract class AbstractRestRequest extends \Omnipay\Common\Message\AbstractReque
                     array(
                         'Accept'         => 'application/json',
                         'Content-type'   => 'application/json',
+                        'application'    => 'x-www-form-urlencoded',
                         'Authorization'  => 'Basic ' . base64_encode($this->getMerchantId() . ":" . $this->getApiKey())
                     ),
                     json_encode($data)
