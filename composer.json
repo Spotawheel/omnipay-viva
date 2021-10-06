@@ -1,0 +1,43 @@
+{
+    "name": "georgepapanotas1/viva-payments",
+    "type": "library",
+    "description": "Viva Payments (Greece) driver for the Omnipay payment processing library",
+    "keywords": [
+        "viva",
+        "payments",
+        "vivapayments",
+        "greece",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/GeorgePapanotas1/omnipay-viva",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Papanotas",
+            "email": "georgepapanotas1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\VivaPayments\\" : "src/" }
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^4.1",
+        "omnipay/dummy": "dev-master",
+        "apigen/apigen": "^4.1",
+        "nette/utils": "~2.3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "prefer-stable": true
+}
