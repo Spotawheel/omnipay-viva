@@ -23,7 +23,7 @@ abstract class AbstractRestRequest extends \Omnipay\Common\Message\AbstractReque
      *
      * @var string URL
      */
-    protected $testEndpoint = 'http://demo.vivapayments.com';
+    protected $testEndpoint = 'https://demo.vivapayments.com';
 
     /**
      * Live Endpoint URL
