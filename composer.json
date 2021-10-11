@@ -1,5 +1,5 @@
 {
-    "name": "georgepapanotas/viva-payments",
+    "name": "spotawheel/viva-payments",
     "type": "library",
     "description": "Viva Payments (Greece) driver for the Omnipay payment processing library",
     "keywords": [
@@ -13,12 +13,12 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/GeorgePapanotas1/omnipay-viva",
+    "homepage": "https://github.com/Spotawheel/omnipay-viva",
     "license": "MIT",
     "authors": [
         {
             "name": "George Papanotas",
-            "email": "georgepapanotas1@gmail.com"
+            "email": "george.papanotas@spotawheel.com"
         }
     ],
     "autoload": {

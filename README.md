@@ -21,7 +21,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/vivapayments": "~2.0"
+        "spotawheel/vivapayments": "~2.0"
     }
 }
 ```
@@ -36,8 +36,6 @@ And run composer to update your dependencies:
 The following gateways are provided by this package:
 
 * VivaPayments_Redirect
-* VivaPayments_Native
-* VivaPayments_VivaWallet (not yet implemented)
 
 All of these gateways use similar principles (REST) with many of the methods being common between
 the three gateways.  I have therefore used an abstract RestGateway class to hold the common methods
